@@ -42,3 +42,15 @@ a:hover {
     padding: 10px 25px;
     border-radius: 5px;
 }
+
+main {
+    padding: 50px;
+    min-height: 70vh;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
