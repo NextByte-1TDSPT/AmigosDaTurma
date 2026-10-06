@@ -54,3 +54,26 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-top: 4px solid #009639;
+
+label {
+    font-weight: bold;
+    color: #009639;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
