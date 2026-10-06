@@ -77,3 +77,18 @@ input, select {
     border-radius: 4px;
     width: 100%;
 }
+
+.grid-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card-membro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 220px;
+    border-bottom: 3px solid #F26522;
+}
