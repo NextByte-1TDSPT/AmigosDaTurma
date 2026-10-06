@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F9FA;
+    font-family: Poppins, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 3px solid #009639;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #009639; /
+}
+
+.btn-destaque {
+    background-color: #F26522; /
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 50px;
+    min-height: 70vh;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-top: 4px solid #009639;
+
+label {
+    font-weight: bold;
+    color: #009639;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.grid-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card-membro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 220px;
+    border-bottom: 3px solid #F26522;
+}
